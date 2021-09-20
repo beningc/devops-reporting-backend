@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-restfullapi",
+  "version": "1.0.0",
+  "description": "template for node js rest api",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udin-template/nodejs-restfulapi.git"
+  },
+  "keywords": [
+    "restapi"
+  ],
+  "author": "safrudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udin-template/nodejs-restfulapi/issues"
+  },
+  "homepage": "https://github.com/udin-template/nodejs-restfulapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
