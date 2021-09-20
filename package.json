@@ -4,7 +4,8 @@
   "description": "template for node js rest api",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "serve": "node app.js"
   },
   "repository": {
     "type": "git",

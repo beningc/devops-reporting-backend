@@ -1,10 +1,11 @@
 const express = require('express')
 
 const Routes = require('./src/main')
+const Config = require('./src/Config/global')
 
 const Server = express()
 const Cors = require('cors')
-const port = 3030
+const port = Config.port
 
 Server.use(Cors())
 
